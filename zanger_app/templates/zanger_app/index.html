@@ -1,0 +1,206 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Юридическая Консультация</title>
+    <link rel="icon" type="image/png" href="{% static 'zanger_app/img/logo.png' %}"> 
+    <link rel="stylesheet" href="{% static 'zanger_app/css/style.css' %}"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="{% static 'zanger_app/img/logo.png' %}" width="40"> 
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">Услуги</a></li> 
+                <li><a href="#about">О нас</a></li> 
+                <li><a href="#feedback">Отзывы</a></li> 
+                <li><a href="#contact">Контакты</a></li> 
+            </ul>
+        </div>
+    </nav>
+    
+<header class="hero-section">
+    <div class="container">
+        
+        <h1 id="consult">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</h1> 
+        <h1 id="name">ЮРИДИЧЕСКАЯ КОНТОРА "ЗАҢГЕР"</h1> 
+        <p id="license">Услуги профессиональных юридических консультантов г. Алматы</p> 
+        <p id="help">Профессиональная помощь в правовых вопросах</p>
+        <a href="#contact" class="btn">Получить консультацию</a> 
+
+    </div>
+</header>
+
+    <section id="about" class="section about-section hidden"> 
+        <div class="container">
+            <h2>О нас</h2> 
+        
+            <p>Мы уделяем особое внимание для решения правовых вопросов для наших клиентов. Наша работа включает консультации, подготовку документов и представление интересов в судах и других органах по таким направлениям, как гражданские, трудовые, семейные, наследственные и административные споры. Область оказания услуг: город Алматы, Казахстан. Мы нацелен на предоставление четких решений и эффективную помощь в вашей ситуации.</p> 
+        </div>
+    </section>
+   
+    <section id="services" class="section services-section hidden"> 
+        <div class="container">
+            <h2 id="uslugi">Услуги</h2> 
+            <div class="services-grid">
+
+                <div class="service-item"> 
+                    <i class="icon">⚖️</i> 
+                    <h3>Гражданские споры</h3>
+                    <p>Споры между физическими или юридическими лицами, например, о праве собственности, долговых обязательствах, нарушении договоров.</p> 
+                    
+                </div> 
+
+                 <div class="service-item"> 
+                    <i class="icon">💼</i> 
+                    <h3>Трудовые споры</h3>
+                    <p>Конфликты между работодателями и работниками, связанные с трудовым договором, увольнением, заработной платой и другими условиями работы.</p> 
+                     
+                </div> 
+              
+                 <div class="service-item"> 
+                    <i class="icon">🏠</i> 
+                    <h3>Семейное споры</h3> 
+                    <p>Дела о разводах, разделе имущества, алиментах, опеке над детьми.</p> 
+                </div> 
+
+                 <div class="service-item"> 
+                    <i class="icon">📜</i> 
+                    <h3>Наследственные споры</h3>            
+                    <p>Вопросы, связанные с определением прав на имущество.</p> 
+                </div> 
+
+                 <div class="service-item"> 
+                    <i class="icon">🏛️</i>
+                    <h3>Административные споры</h3>
+                    <p>Споры с государственными организациями.</p>
+                </div> 
+
+            </div>
+        </div>
+    </section>
+    
+    <section id="process" class="section process-section hidden"> 
+        <div class="container">
+            <h2>Процесс работы</h2> 
+            <div class="process-steps">
+                <div class="step" data-step="1"> 
+                    <div class="step-content">
+                        <h3>ОПРЕДЕЛЕНИЕ ВАШЕЙ ПРОБЛЕМЫ</h3> 
+                    </div>
+                </div> 
+                 <div class="step" data-step="2"> 
+                     <div class="step-content">
+                         <h3>ВЫБОР УСЛУГИ ДЛЯ РЕШЕНИЯ ПРОБЛЕМЫ</h3> 
+                     </div>
+                 </div> 
+                  <div class="step" data-step="3"> 
+                     <div class="step-content">
+                         <h3>ЗАКЛЮЧЕНИЕ ДОГОВОРА</h3>
+                     </div>
+                 </div>
+                  <div class="step" data-step="4"> 
+                     <div class="step-content">
+                         <h3>РЕАЛИЗАЦИЯ И ЗАЩИТА</h3> 
+                     </div>
+                 </div> 
+            </div>
+        </div>
+    </section>
+    
+    <section id="feedback" class="section feedback-section hidden"> 
+        <div class="container">
+            <h2>Отзывы клиентов</h2> 
+            <div class="feedback-item"> 
+                 <p>"Профессионалы своего дела! Очень помогли решить мою сложную ситуацию."</p> 
+                 <span>- Сауле К.</span> 
+             </div> 
+             <div class="feedback-item"> 
+                 <p>"Быстро, четко и эффективно. Рекомендую!"</p> 
+                 <span>- Кайрат С.</span> 
+             </div> 
+             </div>
+    </section>
+    
+    <section id="contact" class="section contact-section hidden"> 
+
+        <div class="container">
+            <h2>Получить бесплатную консультацию</h2> 
+            <p>Для предварительной оценки вашей ситуации и определения путей решения, вы можете получить бесплатную консультацию. Заполните форму ниже, чтобы мы могли ознакомиться с вашей проблемой. Пожалуйста, предоставьте как можно больше деталей.</p> 
+
+            <form id="whatsapp-form"> 
+                 <div class="form-group"> 
+                     <label for="user_name">Ваше имя:</label>
+                     <input type="text" id="user_name" name="user_name" required>
+                 </div> 
+                 <div class="form-group"> 
+                     <label for="user_city">Город:</label>
+                     <input type="text" id="user_city" name="user_city">
+                 </div> 
+                 <div class="form-group">
+                     <label for="service_of_interest">Интересующая услуга:</label>
+                     <select id="service_of_interest" name="service_of_interest">
+                         <option value="">-- Выберите услугу --</option> 
+                         <option value="Гражданские споры">Гражданские споры</option>
+                         <option value="Трудовые споры">Трудовые споры</option>
+                         <option value="Семейное споры">Семейное споры</option>
+                          <option value="Наследственные споры">Наследственные споры</option>
+                          <option value="Административные споры">Административные споры</option>
+                         <option value="Другое">Другое</option> 
+                          </select>
+                 </div> 
+
+                 <div class="form-group"> 
+                     <label for="problem_essence">1. Какова суть проблемы или спора? <span class="required-star">*</span></label> 
+                     <textarea id="problem_essence" name="problem_essence" rows="4" required></textarea>
+                 </div> 
+
+                 <div class="form-group"> 
+                     <label for="participants">2. Кто принимает участие в деле (стороны конфликта)?</label>
+                     <textarea id="participants" name="participants" rows="2"></textarea>
+                 </div> 
+
+                 <div class="form-group"> 
+                     <label for="incident_details">3. Когда и при каких обстоятельствах произошло дело?</label>
+                     <textarea id="incident_details" name="incident_details" rows="2"></textarea>
+                 </div> 
+
+                 <div class="form-group"> 
+                     <label for="documents_evidence">4. Какие документы или доказательства есть по делу?</label>
+                     <textarea id="documents_evidence" name="documents_evidence" rows="2"></textarea>
+                 </div> 
+
+                 <div class="form-group"> 
+                     <label for="steps_taken">5. Какие уже были предприняты шаги или действия?</label>
+                     <textarea id="steps_taken" name="steps_taken" rows="2"></textarea>
+                 </div> 
+                
+                 <button type="submit" class="btn whatsapp-btn"> 
+                     Отправить в WhatsApp 
+                 </button> 
+            </form> 
+
+             <p style="text-align: center; margin-top: 30px; margin-bottom: 10px; font-size: 26px">НАШИ КОНТАКТЫ:</p>
+             <p>Телефон: +7 701 725 53 30</p> 
+             <p>Email: kana.bek.77@mail.ru</p> 
+
+        </div>
+    </section>
+   
+    <footer> 
+        <div class="container">
+            <p>&copy; Все права защищены.</p> 
+        </div>
+    </footer>
+    
+    <script src="{% static 'zanger_app/js/script.js' %}"></script> 
+    
+</body>
+</html>

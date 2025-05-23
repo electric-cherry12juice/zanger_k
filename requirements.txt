@@ -1,0 +1,13 @@
+django>=4.2,<4.3
+
+
+gunicorn
+
+
+psycopg2-binary
+
+
+dj-database-url
+
+
+whitenoise[brotli]

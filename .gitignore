@@ -1,0 +1,25 @@
+
+*.py[cod]
+__pycache__/
+.venv/
+*.env
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+*.sqlite3
+db.sqlite3 # Explicitly ignore if you used it locally
+
+
+staticfiles/ # Or whatever you set STATIC_ROOT to locally
+
+
+.vscode/
+.idea/
+
+
+secrets.yaml
+*.key
